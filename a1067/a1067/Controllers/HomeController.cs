@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace a1067.Controllers
 {
+    [RequireHttps]
     public class HomeController : Controller
     {
         //
