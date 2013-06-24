@@ -27,12 +27,7 @@ namespace AppHarbor.Web
             {
                 return;
             }
-
-            if (request.IsLocal)
-            {
-                return;
-            }
-
+            
             HandleNonHttpsRequest(filterContext);
         }
     }
